@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 __author__ = "Andrea Fioraldi"
-__copyright__ = "Copyright 2017, Andrea Fioraldi"
+__copyright__ = "Copyright 2017-22, Andrea Fioraldi"
 __license__ = "MIT"
 __email__ = "andreafioraldi@gmail.com"
 
@@ -9,7 +9,7 @@ from setuptools import setup
 
 setup(
     name='cve_searchsploit',
-    version="1.6",
+    version="1.7",
     license=__license__,
     description='Search an exploit in the local exploitdb database by its CVE',
     author=__author__,
