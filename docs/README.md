@@ -1,15 +1,16 @@
 # ck9/cve_searchsploit-api
 
 ## About
-Search an exploit in the local exploitdb database by its CVE
 
-I update mapping.json daily and provide it as API hosted on GitHub Pages.
+Web API of [andreafioraldi/cve_searchsploit](https://github.com/andreafioraldi/cve_searchsploit)
 
-## Reference
+I update mapping.json daily and provide it as WEB API hosted on GitHub Pages.
+
+## Endpoints
 
 ### EDB-ID => CVE-ID
 
-[https://ck9.github.io/cve_searchsploit-api/v1/exploitdb_mapping.json](https://ck9.github.io/cve_searchsploit-api/v1/exploitdb_mapping.json)
+GET [https://ck9.github.io/cve_searchsploit-api/v1/exploitdb_mapping.json](https://ck9.github.io/cve_searchsploit-api/v1/exploitdb_mapping.json)
 
 ```json
 {
@@ -28,7 +29,7 @@ I update mapping.json daily and provide it as API hosted on GitHub Pages.
 
 ### CVE-ID => EDB-ID
 
-[https://ck9.github.io/cve_searchsploit-api/v1/exploitdb_mapping_cve.json](https://ck9.github.io/cve_searchsploit-api/v1/exploitdb_mapping_cve.json)
+GET [https://ck9.github.io/cve_searchsploit-api/v1/exploitdb_mapping_cve.json](https://ck9.github.io/cve_searchsploit-api/v1/exploitdb_mapping_cve.json)
 
 ```json
 {
