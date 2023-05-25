@@ -129,5 +129,5 @@ yarn-error.log
 # Mac OS X
 .DS_Store
 
-# update script
-update.sh
+# cron script
+cron.sh
